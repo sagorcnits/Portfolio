@@ -87,6 +87,7 @@
   background-color: #fff8f3;
   text-align: center;
   border-radius: 10px;
+  color: #474747;
 }
 
 .about-info-container {
@@ -104,6 +105,7 @@
 .experience-container {
   width: 70%;
   margin: auto;
+  color: #474747;
 }
 
 .skil-container {
@@ -121,4 +123,34 @@
 
 .summary-section {
   padding: 50px 0;
+}
+
+.summary-container {
+  width: 70%;
+  margin: auto;
+  color: #474747;
+}
+
+.summary-row-container {
+  padding-top: 40px;
+  display: flex;
+  gap: 30px;
+}
+
+.summary-card {
+  padding: 10px 0;
+  border-bottom: 1px solid gray;
+  line-height: 30px;
+}
+
+.summary-btn {
+  padding: 10px 20px;
+  border: none;
+  background-color: #fd6e0a;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+  display: block;
+  margin: 30px auto;
 }
