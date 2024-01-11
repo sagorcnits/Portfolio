@@ -208,3 +208,135 @@ textarea {
   height: 150px;
   padding: 10px;
 }
+
+/* media query responsive style start */
+
+@media screen and (max-width: 576px) {
+  .hide {
+    display: none;
+  }
+
+  .header {
+    background-color: #fff8f3;
+    background-image: url("../images/developer.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+  }
+  /* .navber, */
+  .footer-container,
+  .summary-row-container,
+  .summary-container,
+  .skil-container,
+  .about-info-container,
+  .nav-item,
+  .banner {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .footer-container,
+  .banner {
+    padding: 10px;
+  }
+
+  .banner .profile-pic {
+    width: 50%;
+  }
+
+  .footer-colum,
+  .summary-row-container,
+  .about-section .about-container,
+  .experience-container {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .header {
+    background-color: #fff8f3;
+    background-image: url("../images/developer.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 10% 100%;
+  }
+
+  .skil-container {
+    width: 100%;
+    flex-direction: column;
+  }
+  .footer-container,
+  .about-container,
+  .summary-container {
+    width: 100%;
+  }
+
+  .footer-container,
+  .banner {
+    padding: 10px;
+  }
+
+  .banner .profile-pic {
+    width: 40%;
+  }
+
+  .footer-colum,
+  .summary-row-container,
+  .about-section .about-container,
+  .experience-container {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 942px) {
+  .header {
+    background-color: #fff8f3;
+    background-image: url("../images/developer.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 10% 100%;
+  }
+
+  .skil-container,
+  .footer-container,
+  .about-container,
+  .summary-container {
+    width: 100%;
+  }
+
+  .footer-container,
+  .banner {
+    padding: 10px;
+  }
+
+  .banner .profile-pic {
+    width: 40%;
+  }
+
+  .footer-colum,
+  .summary-row-container,
+  .about-section .about-container,
+  .experience-container {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 942px) and (max-width: 1200px) {
+  .experience-container,
+  .banner,
+  .about-section .about-container,
+  .footer-container,
+  .summary-container {
+    width: 90%;
+  }
+
+  .banner {
+    padding: 10px;
+  }
+
+  .banner .profile-pic {
+    width: 40%;
+  }
+}
